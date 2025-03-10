@@ -1,121 +1,101 @@
 using UnityEngine;
 
-namespace DroneGame.Core
+namespace Core
 {
-    /// <summary>
-    /// Main controller for the drone. Handles physics, movement and core functionality.
-    /// </summary>
     public class DroneController : MonoBehaviour
     {
         [Header("Drone Properties")]
-        [SerializeField] private float thrust = 10f;
+        [SerializeField] private float thrust = 15f;
         [SerializeField] private float pitchSpeed = 5f;
         [SerializeField] private float yawSpeed = 5f;
         [SerializeField] private float rollSpeed = 5f;
-        [SerializeField] private float stabilizationSpeed = 3f;
-
-        [Header("Physics")]
-        [SerializeField] private Rigidbody rb;
-        [SerializeField] private Transform droneModel;
-        [SerializeField] private float gravityMultiplier = 1f;
-
-        // Input values
-        private float thrustInput;
-        private float pitchInput;
-        private float yawInput;
-        private float rollInput;
-
+        
+        // Ссылки на компоненты
+        private Rigidbody rb;
         private DroneInputHandler inputHandler;
         private DroneEnergySystem energySystem;
 
         private void Awake()
         {
-            // Get components
+            // Получаем компоненты
             rb = GetComponent<Rigidbody>();
+            if (rb == null)
+            {
+                Debug.LogError("Отсутствует Rigidbody на объекте дрона!");
+                rb = gameObject.AddComponent<Rigidbody>();
+                rb.mass = 1f;
+                rb.linearDamping = 0.5f;
+                rb.angularDamping = 0.5f;
+            }
+            
             inputHandler = GetComponent<DroneInputHandler>();
             energySystem = GetComponent<DroneEnergySystem>();
-
-            // If no model assigned, use this transform
-            if (droneModel == null)
-                droneModel = transform;
         }
 
         private void Update()
         {
-            // Get input values from input handler
-            if (inputHandler != null)
+            // Вывод информации о силах
+            if (Input.GetKeyDown(KeyCode.F))
             {
-                thrustInput = inputHandler.ThrustInput;
-                pitchInput = inputHandler.PitchInput;
-                yawInput = inputHandler.YawInput;
-                rollInput = inputHandler.RollInput;
+                Debug.Log($"Thrust Force: {thrust * inputHandler.ThrustInput}");
+                Debug.Log($"Torque: ({pitchSpeed * inputHandler.PitchInput}, {yawSpeed * inputHandler.YawInput}, {rollSpeed * inputHandler.RollInput})");
+                Debug.Log($"Current Pos Y: {transform.position.y}");
             }
-
-            // Apply visual rotation to the model
-            ApplyDroneRotation();
         }
 
         private void FixedUpdate()
         {
-            // Apply physics forces
+            // Проверка компонентов
+            if (rb == null || inputHandler == null) return;
+            
+            // Проверка энергии
+            if (energySystem != null && !energySystem.HasEnergy) return;
+            
+            // Применяем физические силы
             ApplyThrust();
             ApplyTorque();
-            ApplyGravity();
-            ApplyStabilization();
+            
+            // Предотвращаем падение ниже нуля
+            if (transform.position.y < 0.5f)
+            {
+                Vector3 pos = transform.position;
+                pos.y = 0.5f;
+                transform.position = pos;
+                
+                // Останавливаем падение
+                if (rb.linearVelocity.y < 0)
+                {
+                    Vector3 vel = rb.linearVelocity;
+                    vel.y = 0;
+                    rb.linearVelocity = vel;
+                }
+            }
         }
 
         private void ApplyThrust()
         {
-            // Apply upward thrust based on input and available energy
-            if (energySystem != null && !energySystem.HasEnergy)
-                return;
-
-            float currentThrust = thrust * thrustInput;
-            rb.AddForce(transform.up * currentThrust, ForceMode.Force);
-
-            // Consume energy if system exists
-            if (energySystem != null)
-                energySystem.ConsumeEnergy(thrustInput * Time.fixedDeltaTime);
+            // Применяем тягу вверх/вниз
+            float thrustForce = inputHandler.ThrustInput * thrust;
+            rb.AddForce(Vector3.up * thrustForce, ForceMode.Force);
+            
+            // Добавляем стабилизацию, чтобы дрон не падал слишком быстро
+            if (inputHandler.ThrustInput < 0.1f)
+            {
+                // Компенсация гравитации
+                rb.AddForce(Vector3.up * Physics.gravity.magnitude * 0.7f * rb.mass, ForceMode.Force);
+            }
         }
 
         private void ApplyTorque()
         {
-            // Apply rotational forces for pitch, yaw, and roll
+            // Применяем вращающие силы
             Vector3 torque = new Vector3(
-                pitchInput * pitchSpeed,
-                yawInput * yawSpeed,
-                -rollInput * rollSpeed
+                inputHandler.PitchInput * pitchSpeed, 
+                inputHandler.YawInput * yawSpeed, 
+                -inputHandler.RollInput * rollSpeed
             );
-
+            
             rb.AddRelativeTorque(torque, ForceMode.Force);
-        }
-
-        private void ApplyGravity()
-        {
-            // Apply custom gravity
-            rb.AddForce(Physics.gravity * gravityMultiplier, ForceMode.Acceleration);
-        }
-
-        private void ApplyStabilization()
-        {
-            // Add stabilization when no input is given
-            if (Mathf.Abs(pitchInput) < 0.1f && Mathf.Abs(rollInput) < 0.1f)
-            {
-                // Gradually level out the drone when no rotation input
-                Quaternion targetRotation = Quaternion.FromToRotation(transform.up, Vector3.up) * transform.rotation;
-                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, stabilizationSpeed * Time.fixedDeltaTime);
-            }
-        }
-
-        private void ApplyDroneRotation()
-        {
-            // Apply visual rotation to the drone model for feedback
-            // This is separate from physics rotation
-            droneModel.localRotation = Quaternion.Euler(
-                pitchInput * 15f,
-                0f,
-                -rollInput * 15f
-            );
         }
     }
 }

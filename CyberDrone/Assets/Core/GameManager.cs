@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace DroneGame.Core
+namespace Core
 {
     /// <summary>
     /// Central manager for game state and core functionality.
@@ -11,7 +11,7 @@ namespace DroneGame.Core
     {
         [Header("Game Settings")]
         [SerializeField] private bool isPaused = false;
-        [SerializeField] private GameState currentState = GameState.MainMenu;
+        [SerializeField] public GameState currentState = GameState.MainMenu;
 
         [Header("References")]
         [SerializeField] private DroneController playerDrone;

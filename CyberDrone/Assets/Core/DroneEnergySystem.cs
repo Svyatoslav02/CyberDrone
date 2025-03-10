@@ -1,92 +1,61 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace DroneGame.Core
+namespace Core
 {
-    /// <summary>
-    /// Manages drone energy/battery system.
-    /// Handles energy consumption, recharging, and related events.
-    /// </summary>
     public class DroneEnergySystem : MonoBehaviour
     {
-        [Header("Energy Properties")]
+        [Header("Energy Settings")]
         [SerializeField] private float maxEnergy = 100f;
         [SerializeField] private float currentEnergy;
-        [SerializeField] private float consumptionRate = 10f;
-        [SerializeField] private float rechargeRate = 5f;
-        [SerializeField] private float criticalEnergyThreshold = 20f;
-
-        [Header("Recharge Settings")]
-        [SerializeField] private bool autoRechargeWhenIdle = true;
-        [SerializeField] private float idleThreshold = 0.1f;
-
-        // Events
-        public UnityEvent OnEnergyDepleted;
-        public UnityEvent OnCriticalEnergy;
-        public UnityEvent OnEnergyRecharged;
-
-        // Properties
+        [SerializeField] private float consumptionRate = 5f;
+        [SerializeField] private float rechargeRate = 2f;
+        [SerializeField] private float criticalThreshold = 20f;
+        
+        // Свойства
         public float CurrentEnergy => currentEnergy;
         public float MaxEnergy => maxEnergy;
         public float EnergyPercentage => (currentEnergy / maxEnergy) * 100f;
         public bool HasEnergy => currentEnergy > 0;
-        public bool IsCritical => currentEnergy <= criticalEnergyThreshold;
-
-        private DroneInputHandler inputHandler;
-        private bool wasInCriticalState = false;
-
+        public bool IsCritical => currentEnergy < criticalThreshold;
+        
+        // События
+        public UnityEvent OnEnergyDepleted;
+        public UnityEvent OnCriticalEnergy;
+        public UnityEvent OnEnergyRecharged;
+        
+        private bool wasInCriticalState;
+        private bool wasDepleted;
+        
         private void Awake()
         {
-            inputHandler = GetComponent<DroneInputHandler>();
+            // Начальная энергия
             currentEnergy = maxEnergy;
+            wasInCriticalState = false;
+            wasDepleted = false;
         }
-
+        
         private void Update()
         {
-            // Handle critical energy state
-            HandleCriticalState();
-
-            // Auto recharge when idle if enabled
-            if (autoRechargeWhenIdle && IsIdle())
+            // Автоматическая подзарядка
+            if (currentEnergy < maxEnergy)
             {
-                RechargeEnergy(rechargeRate * Time.deltaTime);
+                currentEnergy = Mathf.Min(maxEnergy, currentEnergy + rechargeRate * Time.deltaTime);
             }
+            
+            // Проверка состояний
+            CheckCriticalState();
+            CheckDepletedState();
+            CheckRechargedState();
         }
-
-        /// <summary>
-        /// Consumes energy based on the specified amount
-        /// </summary>
+        
         public void ConsumeEnergy(float amount)
         {
             float consumption = amount * consumptionRate;
             currentEnergy = Mathf.Max(0, currentEnergy - consumption);
-
-            // Trigger event if energy is depleted
-            if (currentEnergy <= 0)
-            {
-                OnEnergyDepleted?.Invoke();
-            }
         }
-
-        /// <summary>
-        /// Recharges energy by the specified amount
-        /// </summary>
-        public void RechargeEnergy(float amount)
-        {
-            bool wasNotFull = currentEnergy < maxEnergy;
-            currentEnergy = Mathf.Min(maxEnergy, currentEnergy + amount);
-
-            // Trigger event if energy was recharged to full
-            if (wasNotFull && currentEnergy >= maxEnergy)
-            {
-                OnEnergyRecharged?.Invoke();
-            }
-        }
-
-        /// <summary>
-        /// Handles critical energy state and events
-        /// </summary>
-        private void HandleCriticalState()
+        
+        private void CheckCriticalState()
         {
             if (IsCritical && !wasInCriticalState)
             {
@@ -98,19 +67,26 @@ namespace DroneGame.Core
                 wasInCriticalState = false;
             }
         }
-
-        /// <summary>
-        /// Checks if the drone is idle (not receiving significant input)
-        /// </summary>
-        private bool IsIdle()
+        
+        private void CheckDepletedState()
         {
-            if (inputHandler == null)
-                return true;
-
-            return Mathf.Abs(inputHandler.ThrustInput) < idleThreshold &&
-                   Mathf.Abs(inputHandler.PitchInput) < idleThreshold &&
-                   Mathf.Abs(inputHandler.YawInput) < idleThreshold &&
-                   Mathf.Abs(inputHandler.RollInput) < idleThreshold;
+            if (!HasEnergy && !wasDepleted)
+            {
+                OnEnergyDepleted?.Invoke();
+                wasDepleted = true;
+            }
+            else if (HasEnergy && wasDepleted)
+            {
+                wasDepleted = false;
+            }
+        }
+        
+        private void CheckRechargedState()
+        {
+            if (currentEnergy >= maxEnergy && (wasInCriticalState || wasDepleted))
+            {
+                OnEnergyRecharged?.Invoke();
+            }
         }
     }
 }
