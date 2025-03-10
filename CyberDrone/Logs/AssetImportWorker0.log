@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/release' branch; Version is '6000.0.35f1 (9a3bc604008a) revision 10107846'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'uk' Physical Memory: 16295 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16227 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/tutor/Documents/GitHub/CyberDrone/CyberDrone
+C:/Users/Ihor Karabinovych/Documents/GitHub/CyberDrone/CyberDrone
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55287
+63324
 -job-worker-count
-1
+9
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/tutor/Documents/GitHub/CyberDrone/CyberDrone
-C:/Users/tutor/Documents/GitHub/CyberDrone/CyberDrone
+Successfully changed project path to: C:/Users/Ihor Karabinovych/Documents/GitHub/CyberDrone/CyberDrone
+C:/Users/Ihor Karabinovych/Documents/GitHub/CyberDrone/CyberDrone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,15 @@ C:/Users/tutor/Documents/GitHub/CyberDrone/CyberDrone
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16892]  Target information:
+Player connection [23424]  Target information:
 
-Player connection [16892]  * "[IP] 10.0.4.10 [Port] 0 [Flags] 2 [Guid] 2776748133 [EditorId] 2776748133 [Version] 1048832 [Id] WindowsEditor(7,402-0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [23424]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3766094845 [EditorId] 3766094845 [Version] 1048832 [Id] WindowsEditor(7,Predator) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16892] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16892] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 1
+Player connection [23424]  * "[IP] 192.168.178.30 [Port] 0 [Flags] 2 [Guid] 3766094845 [EditorId] 3766094845 [Version] 1048832 [Id] WindowsEditor(7,Predator) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23424] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23424] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,59 +78,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tutor/Documents/GitHub/CyberDrone/CyberDrone/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Ihor Karabinovych/Documents/GitHub/CyberDrone/CyberDrone/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GT 1030 (ID=0x1d01)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     1967 MB
-    Driver:   32.0.15.6094
+    VRAM:     12115 MB
+    Driver:   31.0.15.5183
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.35f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005909 seconds.
-- Loaded All Assemblies, in  0.899 seconds
+Registered in 0.002306 seconds.
+- Loaded All Assemblies, in  0.387 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.956 seconds
-Domain Reload Profiling: 1851ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  0.268 seconds
+Domain Reload Profiling: 653ms
+	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (81ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (362ms)
-		LoadAssemblies (301ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (147ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (355ms)
-			TypeCache.Refresh (347ms)
-				TypeCache.ScanAssembly (318ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (131ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (957ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (268ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (804ms)
+		SetupLoadedEditorAssemblies (235ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (63ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (366ms)
-			ProcessInitializeOnLoadMethodAttributes (230ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,178 +139,1652 @@ Domain Reload Profiling: 1851ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.726 seconds
-Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.790 seconds
-Domain Reload Profiling: 3506ms
-	BeginReloadAssembly (387ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1302ms
+	BeginReloadAssembly (136ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (82ms)
-	RebuildNativeTypeToScriptingClass (33ms)
-	initialDomainReloadingComplete (98ms)
-	LoadAllAssembliesAndSetupDomain (1114ms)
-		LoadAssemblies (819ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (528ms)
+		LoadAssemblies (373ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (534ms)
-			TypeCache.Refresh (382ms)
-				TypeCache.ScanAssembly (350ms)
-			BuildScriptInfoCaches (117ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (1791ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (165ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1384ms)
+		SetupLoadedEditorAssemblies (440ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (297ms)
-			ProcessInitializeOnLoadAttributes (818ms)
-			ProcessInitializeOnLoadMethodAttributes (244ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (288ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5958 unused Assets / (3.8 MB). Loaded Objects now: 6594.
-Memory consumption went from 146.8 MB to 142.9 MB.
-Total: 18.385500 ms (FindLiveObjects: 1.453300 ms CreateObjectMapping: 2.889700 ms MarkObjects: 9.456800 ms  DeleteObjects: 4.584300 ms)
+Unloading 5939 unused Assets / (5.0 MB). Loaded Objects now: 6625.
+Memory consumption went from 156.8 MB to 151.9 MB.
+Total: 6.908500 ms (FindLiveObjects: 0.404200 ms CreateObjectMapping: 0.380900 ms MarkObjects: 3.945200 ms  DeleteObjects: 2.177100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 617823.375730 seconds.
-  path: Assets/Settings/DefaultVolumeProfile.asset
-  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10528149371aefc32227726816d72a59') in 0.0784679 seconds
+  Time since last request: 330561.073367 seconds.
+  path: Assets/Drone/Drone/Art
+  artifactKey: Guid(77e731109bca01643a1bff10840fa062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/Art using Guid(77e731109bca01643a1bff10840fa062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8078533536ac93417e8f8207fc1a113') in 0.0050087 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Drone
+  artifactKey: Guid(d3e243200f733234ea67b416f625721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone using Guid(d3e243200f733234ea67b416f625721d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8357c3a5f6ed4aecb740dafed22bd4d5') in 0.0005439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Drone/Drone
+  artifactKey: Guid(2d4cffad9d6fee04984984a87681c9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone using Guid(2d4cffad9d6fee04984984a87681c9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a41537062c6d51aba4d8cc2c970905e9') in 0.0004174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722459 seconds.
+  path: Assets/Drone/Drone/Art/animation
+  artifactKey: Guid(775f77ba0709c9d46baf7534d3f4e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/Art/animation using Guid(775f77ba0709c9d46baf7534d3f4e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a61e748fbde8a6469e9d79ba1e072a3b') in 0.0005364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.298498 seconds.
+  path: Assets/Drone/Drone/Art/model/drone.fbx
+  artifactKey: Guid(77ec979c4a1053f4fb90fee3d17b240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/Art/model/drone.fbx using Guid(77ec979c4a1053f4fb90fee3d17b240c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26eb70676b2c423b7728f5d53f47c259') in 2.269174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.433162 seconds.
+  path: Assets/Drone/Drone/prefab/drone.prefab
+  artifactKey: Guid(e746f881748d3a147949e70e5c570880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/prefab/drone.prefab using Guid(e746f881748d3a147949e70e5c570880) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ceaa2b3e8a4c67546ce1a290534d65e') in 0.0296258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Drone/Drone/prefab/drone Black.prefab
+  artifactKey: Guid(c53e58c59cba20e4ab6f2080fbdafb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/prefab/drone Black.prefab using Guid(c53e58c59cba20e4ab6f2080fbdafb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '324532ae6a0e5b6c591f278ff77fff84') in 0.0157915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 140
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Drone/Drone/prefab/drone green Variant.prefab
+  artifactKey: Guid(cf23b55ba765f374aab36c1a7a3b28f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/prefab/drone green Variant.prefab using Guid(cf23b55ba765f374aab36c1a7a3b28f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60a9e4327cfab938c1c283b060b5bc84') in 0.0138694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 182
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Drone/Drone/prefab/drone orange Variant.prefab
+  artifactKey: Guid(b8c5de00063898242910230cb837de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/prefab/drone orange Variant.prefab using Guid(b8c5de00063898242910230cb837de87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06d804f4e402767ba0e8b581f4db0bd') in 0.0147854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 224
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Drone/Drone/prefab/drone black and white Variant.prefab
+  artifactKey: Guid(ce1e8e032db7c26449ae1d260b060f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/prefab/drone black and white Variant.prefab using Guid(ce1e8e032db7c26449ae1d260b060f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e695dd4dc940d1a7bbfa98a21e85b241') in 0.0144108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Drone/Drone/prefab/drone blue.prefab
+  artifactKey: Guid(323885c14529a9142b1f9dbaabda8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/prefab/drone blue.prefab using Guid(323885c14529a9142b1f9dbaabda8e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9de1999e41b4d166fb5ad2e6cc781f77') in 0.0152958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 310.753367 seconds.
+  path: Assets/Drone/Drone/Art/animation/Fan Controller.controller
+  artifactKey: Guid(a2c255f835a5f984a931e730b1ed4a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/Art/animation/Fan Controller.controller using Guid(a2c255f835a5f984a931e730b1ed4a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24bb70bae71d85bda2cfcfbb21855d79') in 0.0016771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942712 seconds.
+  path: Assets/Drone/Drone/Art/animation/Fan Rotation.anim
+  artifactKey: Guid(85e93fac93c19ee4daa894ed59f8c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drone/Drone/Art/animation/Fan Rotation.anim using Guid(85e93fac93c19ee4daa894ed59f8c60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58367a0dcd268466ec9ecc1c6dafac4f') in 0.0011929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5966 unused Assets / (4.4 MB). Loaded Objects now: 6852.
+Memory consumption went from 148.6 MB to 144.1 MB.
+Total: 9.530600 ms (FindLiveObjects: 0.441400 ms CreateObjectMapping: 0.366000 ms MarkObjects: 6.460300 ms  DeleteObjects: 2.258900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1123.373474 seconds.
+  path: Assets/Simple House Maker/icon.png
+  artifactKey: Guid(7f412f7820fbbc244b89701cd2d08af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/icon.png using Guid(7f412f7820fbbc244b89701cd2d08af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98d1fc4dcc121324ecc6ac79aa3fb0b0') in 0.0578549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.898933 seconds.
+  path: Assets/Simple House Maker/Prefabs
+  artifactKey: Guid(f3923835ef4d9754baeaae78647567d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs using Guid(f3923835ef4d9754baeaae78647567d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52407b39cf6d900a121dda87c0dffba4') in 0.0005656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062303 seconds.
+  path: Assets/Simple House Maker/Prefabs/bridge.prefab
+  artifactKey: Guid(235170a2fc8e90d439bbf87509e6eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/bridge.prefab using Guid(235170a2fc8e90d439bbf87509e6eaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48c7479a615179cd6a7f38e163ffedb4') in 0.0038232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple House Maker/Prefabs/House.prefab
+  artifactKey: Guid(573d27f542f67d8489d5126c7cbbe105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/House.prefab using Guid(573d27f542f67d8489d5126c7cbbe105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf077ad68cf3c1a464cbbcbb4d4368d7') in 0.0019145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseRow.prefab
+  artifactKey: Guid(17a89da227cc6cc4eb29d085c937a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseRow.prefab using Guid(17a89da227cc6cc4eb29d085c937a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a6bcf47e129dabc2aaf3416a8745d7') in 0.0014409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple House Maker/Prefabs/HousePro.prefab
+  artifactKey: Guid(57f36c9563a0aed49a9edd23e58ea86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HousePro.prefab using Guid(57f36c9563a0aed49a9edd23e58ea86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f698de151edd3ee87ec4c2924622f2b') in 0.0023841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.500154 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries
+  artifactKey: Guid(c790b6d457634124c9b3fff125f527d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries using Guid(c790b6d457634124c9b3fff125f527d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f76209d66cd69e5477758c9ade2dedb7') in 0.0005072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077186 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/alternatewindow.prefab
+  artifactKey: Guid(ab4b9894263e4e647a65e7f4d63ab27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/alternatewindow.prefab using Guid(ab4b9894263e4e647a65e7f4d63ab27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e92fdfe6381ae714abb04400cf9a554b') in 0.0355351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/Sattelite_antenna-fbx.prefab
+  artifactKey: Guid(1970084164d61934382aea71f6a26846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/Sattelite_antenna-fbx.prefab using Guid(1970084164d61934382aea71f6a26846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '951721ca974a6383adcf1258ed040b69') in 0.0200723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/stairstep.prefab
+  artifactKey: Guid(8e06cf07d6721864a863d66d102e7d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/stairstep.prefab using Guid(8e06cf07d6721864a863d66d102e7d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4b4cd378ce2e955631c4e0546bfffcb') in 0.0386093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/Stairs.prefab
+  artifactKey: Guid(808d1173ae380774b8a20da9c32b9eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/Stairs.prefab using Guid(808d1173ae380774b8a20da9c32b9eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e284a92b1e9639ae78fa3783efd7b83b') in 0.0121899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/superwindow.prefab
+  artifactKey: Guid(0c7e4d9f6e4075940adfe815aebf42d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/superwindow.prefab using Guid(0c7e4d9f6e4075940adfe815aebf42d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5471176aedb63c60a5bbcae2bf2b6526') in 0.0124379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/window.prefab
+  artifactKey: Guid(aa32682a8ddf61043b769022dd8010f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/window.prefab using Guid(aa32682a8ddf61043b769022dd8010f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c134514e560b7c0550f6a258cb0eb16c') in 0.0338731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.224215 seconds.
+  path: Assets/Simple House Maker/Prefabs/HouseAccesorries/MeshAccesorries
+  artifactKey: Guid(e09d2dc8bc3dfb04e9a8f3efed695dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Prefabs/HouseAccesorries/MeshAccesorries using Guid(e09d2dc8bc3dfb04e9a8f3efed695dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '666d499829aec5d34f1ae8ace38b3ab1') in 0.0005901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.894238 seconds.
+  path: Assets/Simple House Maker/Materials/base.mat
+  artifactKey: Guid(08f3ec09a8e71ff4f93accc02cb8047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/base.mat using Guid(08f3ec09a8e71ff4f93accc02cb8047f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da84b72cfabe11d67159bc3c5ca8204d') in 0.0257398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple House Maker/Materials/innerwall.mat
+  artifactKey: Guid(35a1928a780b9354384f6123e3931192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/innerwall.mat using Guid(35a1928a780b9354384f6123e3931192) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1e17fb7cf38adf258a5687ed799cb3f') in 0.0278814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Simple House Maker/Materials/ground.mat
+  artifactKey: Guid(0912588c9825c894a912c4e7cffcb9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/ground.mat using Guid(0912588c9825c894a912c4e7cffcb9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61a50c631b432f3838e8d548b7a1ba38') in 0.0169752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple House Maker/Materials/roofside.mat
+  artifactKey: Guid(f21d300ffcd7427448ce0f8470aeb31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/roofside.mat using Guid(f21d300ffcd7427448ce0f8470aeb31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d6970d34ba1f1cf0847fb90c1e0e7dc') in 0.0294217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple House Maker/Materials/floors.mat
+  artifactKey: Guid(9453329340963724191f1783a6155dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/floors.mat using Guid(9453329340963724191f1783a6155dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4cc900c148e99783b3c9c777231ac328') in 0.0171846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Simple House Maker/Materials/rooftop.mat
+  artifactKey: Guid(448355f92128f85438bc06c093151954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/rooftop.mat using Guid(448355f92128f85438bc06c093151954) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b0cff52ae0249e14d6bea6f1dac1cd2') in 0.0142614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c302720eb73d9bb4ed489d1114fc9bbc') in 0.0017938 seconds
+  path: Assets/Simple House Maker/Materials/bricks.mat
+  artifactKey: Guid(24de07b85c6a6914ba0032b87ff8a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/bricks.mat using Guid(24de07b85c6a6914ba0032b87ff8a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d2b87065be707325a774f6487013dab') in 0.0086137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple House Maker/Materials/ceiling.mat
+  artifactKey: Guid(2d48ad85f349ba04c8235f76bbb8531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/ceiling.mat using Guid(2d48ad85f349ba04c8235f76bbb8531e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72e4c78a108b429b28bf013b834f1de') in 0.0056199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Simple House Maker/Materials/maskmaterial.mat
+  artifactKey: Guid(a2cb17e9c77ec374696184b521cf97b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/maskmaterial.mat using Guid(a2cb17e9c77ec374696184b521cf97b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5523f87e1242929b87a1a8fe5cafbf8') in 0.0118898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Simple House Maker/Materials/transparent.mat
+  artifactKey: Guid(e59d259c5daee2845bac8d664fd01425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/Materials/transparent.mat using Guid(e59d259c5daee2845bac8d664fd01425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cc1045985c42393bfa9b10b3f0f253c') in 0.0054294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.227846 seconds.
+  path: Assets/Simple House Maker/SCRIPTS/HouseGenerationScripts
+  artifactKey: Guid(3a09232fc81f9504fb323a4527cd4ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/SCRIPTS/HouseGenerationScripts using Guid(3a09232fc81f9504fb323a4527cd4ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9228557b515d21c13c00d3acad1c0f98') in 0.0005357 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '092f7974db3fb175701bdf9959c1e23b') in 0.0010342 seconds
+  Time since last request: 2.724486 seconds.
+  path: Assets/Simple House Maker/SCRIPTS/HouseGenerationScripts/bridge
+  artifactKey: Guid(95cbd6d75111f084ba9cf2347abb58e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple House Maker/SCRIPTS/HouseGenerationScripts/bridge using Guid(95cbd6d75111f084ba9cf2347abb58e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9ae9dd96e0ce75ba89998826abfacfe') in 0.0005414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.327876 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b49ee66048a657f1a2c2c26a8e96c10') in 0.0009198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Settings/Mobile_Renderer.asset
+  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eab9b860c0639b9ac3c1ea4b41920533') in 0.0012585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91af3463924372b8f3f2f4939a1f1e03') in 0.0007635 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0006678 seconds
+  path: Assets/Settings/SampleSceneProfile.asset
+  artifactKey: Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/SampleSceneProfile.asset using Guid(10fc4df2da32a41aaa32d77bc913491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e5256597be48f32d466b378cdbba058') in 0.000705 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48422a85c2c122c07104640ff3264d51') in 0.0013392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0ce3b9fb2b0078fcd59af112aef3b6') in 0.0025487 seconds
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94b59d82d2178130821094485554ef95') in 0.0007877 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.364615 seconds.
-  path: Assets/TutorialInfo/Scripts
-  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5f7b6d5fe4d6ec12174dd17021b0f3b') in 0.0007985 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5595849c30a826d437072badaba5c31') in 0.0008892 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.955375 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor
-  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2befc4d32e7a4c91df83b6e6adefcc2a') in 0.0007792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.470812 seconds.
-  path: Assets/TutorialInfo/Icons
-  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1227d413ac442800839fd487a48b0b65') in 0.000888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TutorialInfo/Icons/URP.png
-  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c04b2cf1bfb0a1765ee5b713fde77e90') in 0.117671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 38 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5953 unused Assets / (5.7 MB). Loaded Objects now: 6605.
-Memory consumption went from 122.7 MB to 117.0 MB.
-Total: 16.631500 ms (FindLiveObjects: 0.742300 ms CreateObjectMapping: 1.519900 ms MarkObjects: 6.636600 ms  DeleteObjects: 7.731200 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5928 unused Assets / (4.3 MB). Loaded Objects now: 6820.
+Memory consumption went from 149.5 MB to 145.3 MB.
+Total: 6.905200 ms (FindLiveObjects: 0.436200 ms CreateObjectMapping: 0.372400 ms MarkObjects: 4.356400 ms  DeleteObjects: 1.739100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 197.318590 seconds.
-  path: Assets/Core
-  artifactKey: Guid(ea271f12a63204448853e6866d10ed0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core using Guid(ea271f12a63204448853e6866d10ed0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '818d1f3085c60937546d757e99d6491b') in 0.0055646 seconds
+  Time since last request: 568.090132 seconds.
+  path: Assets/City Props Bundle
+  artifactKey: Guid(2139235564bd220459973df04eea0b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle using Guid(2139235564bd220459973df04eea0b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c081ea3560b700a8fa53cb1933b8c33') in 0.0055134 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.103694 seconds.
-  path: Assets/Core/UIManager.cs
-  artifactKey: Guid(a517ab0d47afbbd4990671d697b6a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/UIManager.cs using Guid(a517ab0d47afbbd4990671d697b6a109) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9685994a72e2519dd8c4684ff287c30') in 0.001437 seconds
+  Time since last request: 1.685359 seconds.
+  path: Assets/City Props Bundle/MAPS
+  artifactKey: Guid(e8ef72cd8e060e843bbb9b87a59c7a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS using Guid(e8ef72cd8e060e843bbb9b87a59c7a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76785012d2327889aab320ea2dbc063d') in 0.0005313 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.202170 seconds.
-  path: Assets/Core/GameManager.cs
-  artifactKey: Guid(30bfb7dd96e36f24596b4e4bf8897f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/GameManager.cs using Guid(30bfb7dd96e36f24596b4e4bf8897f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bf04be33e0d22372b88895d0dc4ec22') in 0.0007541 seconds
+  Time since last request: 1.735455 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels
+  artifactKey: Guid(c41a7d756c85eb145bb179a7cea035a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels using Guid(c41a7d756c85eb145bb179a7cea035a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c65586d1defdaa86219121e2bf42ff') in 0.0005886 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.267541 seconds.
-  path: Assets/Core/DroneEnergySystem.cs
-  artifactKey: Guid(867b14c161b3f7c44a8ea992199d0c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/DroneEnergySystem.cs using Guid(867b14c161b3f7c44a8ea992199d0c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fac8f91032eac8769e9959bce56b16e7') in 0.0007245 seconds
+  Time since last request: 0.033779 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(9af7e1d17f431734caa88ebde358c290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AlbedoTransparency.png using Guid(9af7e1d17f431734caa88ebde358c290) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ee703eab3d6ad227e6bb7ade1b0afac') in 0.0143151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AO.png
+  artifactKey: Guid(9e8cc1a040453c44ba2260e1fbe5138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AO.png using Guid(9e8cc1a040453c44ba2260e1fbe5138e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90cdd834f3c7c2ecef0b2e4b57112ddc') in 0.0131266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(dde7d17d38cc49a41ba66c1bee6cae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_MetallicSmoothness.png using Guid(dde7d17d38cc49a41ba66c1bee6cae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44227f295f48305c3832f1e45ed6229d') in 0.0148732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(45b62380005040c4097d753d3f968ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_AlbedoTransparency.png using Guid(45b62380005040c4097d753d3f968ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c2d4aaee275d5089df06ec37bfe25c9') in 0.0112716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(e090cee43d9df1c49b0e8a7c62e49ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AlbedoTransparency.png using Guid(e090cee43d9df1c49b0e8a7c62e49ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ac212a6eac6c58db8ddfbd355055e80') in 0.0114662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AO.png
+  artifactKey: Guid(b1bf629ed5c9b5a4088e3b792f25b664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_AO.png using Guid(b1bf629ed5c9b5a4088e3b792f25b664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75c9ddc5c63dd01b3b6a0f3f12ac27f3') in 0.0054898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AO.png
+  artifactKey: Guid(29e1b69d6a58b344292ed7217a2dba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_AO.png using Guid(29e1b69d6a58b344292ed7217a2dba72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5c4fce1e8ad3ac743dee15999f106df') in 0.0054039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_Normal.png
+  artifactKey: Guid(5ccee83f0fa32c64f8aed446e77bd242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_Normal.png using Guid(5ccee83f0fa32c64f8aed446e77bd242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2994689bb7fb510ff04725d9dce26949') in 0.022372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_Normal.png
+  artifactKey: Guid(b22f28de307b3024f85ebd9d9eb196d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_red_DefaultMaterial_Normal.png using Guid(b22f28de307b3024f85ebd9d9eb196d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f196203d280ac4d02b423d0e7209e9a0') in 0.0144522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(cd0c5f15a09a05d469de816850e66356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_blue_DefaultMaterial_MetallicSmoothness.png using Guid(cd0c5f15a09a05d469de816850e66356) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cf42163c6155652ce5432201b89f8b4') in 0.0057594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_Normal.png
+  artifactKey: Guid(e5ce2c1206918104289d79d7c434f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_Normal.png using Guid(e5ce2c1206918104289d79d7c434f131) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '468dff97bf1e713d41a119a1511ed18b') in 0.0109658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(d2fb0de3e5b56ae4d936a1f467d636b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/barrels/barrel_yellow_DefaultMaterial_MetallicSmoothness.png using Guid(d2fb0de3e5b56ae4d936a1f467d636b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f44dda388eea4cddb1605103e3e20778') in 0.0063879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.643133 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(689d0788b4409fe49a8dbf0076a309c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AlbedoTransparency.png using Guid(689d0788b4409fe49a8dbf0076a309c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7535d92cc4cf81e50078decdd2497b70') in 0.0141401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(71e9e5ff3ccc3794dbd67e6f7a936bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AlbedoTransparency.png using Guid(71e9e5ff3ccc3794dbd67e6f7a936bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebbd6b6de4feb3a96355ac6b66945c4d') in 0.0172706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(94327898bb3cef54b83d0409c7a460a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_MetallicSmoothness.png using Guid(94327898bb3cef54b83d0409c7a460a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a0a191af7ef7f50cdfd185781b7926') in 0.0124792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AO.png
+  artifactKey: Guid(7b14b16d933b5f242bc0fb63d3590436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_AO.png using Guid(7b14b16d933b5f242bc0fb63d3590436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e09735944bbce9f49c8dd048a4af97d1') in 0.0168225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_Normal.png
+  artifactKey: Guid(0fe733df7500ec349a4acd91f3a26bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_02_DefaultMaterial_Normal.png using Guid(0fe733df7500ec349a4acd91f3a26bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff6ea733c42d27570603e19e8a56efa6') in 0.0122484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(91d5b3901c5876d479d949859e139d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_MetallicSmoothness.png using Guid(91d5b3901c5876d479d949859e139d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2acc46e0dae85336dd3434582399c2ef') in 0.0128579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_Normal.png
+  artifactKey: Guid(0c4c6dca83d2f3d4d9f352ef812c3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_Normal.png using Guid(0c4c6dca83d2f3d4d9f352ef812c3245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c44ed72a43310009d566098f1cf435da') in 0.0133251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AO.png
+  artifactKey: Guid(abb0d9fd58310224cbfcf2e5f97aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/benches/bench_01_DefaultMaterial_AO.png using Guid(abb0d9fd58310224cbfcf2e5f97aa174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a2659dbfc75a6af37b0e73ea065283') in 0.0119253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551283 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(216c64ce2a8463c4a982886679af04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AlbedoTransparency.png using Guid(216c64ce2a8463c4a982886679af04c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5011238987ba22b6deae7cedc6009fa0') in 0.018433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_AlbedoTransparency.png
+  artifactKey: Guid(26cf23450cd17ca4fb7f70415c53b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_AlbedoTransparency.png using Guid(26cf23450cd17ca4fb7f70415c53b7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cfd098e663b75a59bf1d09368946388') in 0.0151517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(504515e133c3b2c49836e83e65c53558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AlbedoTransparency.png using Guid(504515e133c3b2c49836e83e65c53558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46cd4d6a5d9df3820b16ea3af820130f') in 0.0122846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_AO.png
+  artifactKey: Guid(a207c7ddd1c842d409fad011adb0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_AO.png using Guid(a207c7ddd1c842d409fad011adb0fd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '648d8c6d56d0f56170118ade9e9c8473') in 0.0122738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AO.png
+  artifactKey: Guid(69b18b754cc9b0b40b58fe41ba40d16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_AO.png using Guid(69b18b754cc9b0b40b58fe41ba40d16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25086394c046df67dbaf15963fb8ba0c') in 0.0121123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AO.png
+  artifactKey: Guid(6a4ce290c6dee074bb4ce0b53e3642ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_AO.png using Guid(6a4ce290c6dee074bb4ce0b53e3642ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b95d497e2e827b69dce491760cae076') in 0.0163205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_logo_alpha.png
+  artifactKey: Guid(16d12eaaedb603947a3642280a904af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_logo_alpha.png using Guid(16d12eaaedb603947a3642280a904af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bcb8310a2b5ed95426f0dac8242ab18') in 0.0130193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(5f75484087f60de43a7173dd08c55057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_MetallicSmoothness.png using Guid(5f75484087f60de43a7173dd08c55057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acb6e5e698c2b0b10fe45520139cfbd4') in 0.0126238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_Normal.png
+  artifactKey: Guid(71b90957d519cf4488e091bd2ac70ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_01_DefaultMaterial_Normal.png using Guid(71b90957d519cf4488e091bd2ac70ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff800361aff66d0236b36da25041ad5c') in 0.0124722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_Normal.png
+  artifactKey: Guid(7080cf9ad6b9bfc409f885bc31745f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_Normal.png using Guid(7080cf9ad6b9bfc409f885bc31745f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a50b1c02e1a651f0cd3111f289e93444') in 0.0158379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(3eff52018e251ad46ad9226ff28b2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_02_DefaultMaterial_MetallicSmoothness.png using Guid(3eff52018e251ad46ad9226ff28b2546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4c030aa05ace4fed0fe250b0da1abc7') in 0.0132082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_Normal.png
+  artifactKey: Guid(8ebbe78cf1cf0ee49b9d9e11a8d79cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_Normal.png using Guid(8ebbe78cf1cf0ee49b9d9e11a8d79cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fa668195d6dca7d8519e9b656f4cc7c') in 0.0172147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03_MetallicSmoothness.png
+  artifactKey: Guid(d96d2748f019b12449b0a17cb4f5932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03_MetallicSmoothness.png using Guid(d96d2748f019b12449b0a17cb4f5932c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbb84a383eab18287c05aa20ff82021d') in 0.0131772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_logo.png
+  artifactKey: Guid(1494aa23db5396040860d4442de43488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_logo.png using Guid(1494aa23db5396040860d4442de43488) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f53773677360994ae4d4b1473e9d5eed') in 0.0149268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.482314 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(a7958e51da66d594d8874b667339015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AlbedoTransparency.png using Guid(a7958e51da66d594d8874b667339015d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f81238c38d79d19febfb74cc7ac181e2') in 0.0273093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AO.png
+  artifactKey: Guid(0dead2f110bddc54981f34ba52f42caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_AO.png using Guid(0dead2f110bddc54981f34ba52f42caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af132adebd0b4b326655a0f40975c04') in 0.012362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(6ee4acb0fcc2a204e828b17d453ed881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_MetallicSmoothness.png using Guid(6ee4acb0fcc2a204e828b17d453ed881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39c008c2b8aa904075d875f016408daa') in 0.0139816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_Normal.png
+  artifactKey: Guid(ee39ff3986aa97e4995387400355e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/fire_hydrant_DefaultMaterial_Normal.png using Guid(ee39ff3986aa97e4995387400355e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deaa24a64ca92626a7691707ae88f362') in 0.0136895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.490908 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_logo.png
+  artifactKey: Guid(09d5a5cbc5ba6984d8c1a87de748ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_logo.png using Guid(09d5a5cbc5ba6984d8c1a87de748ae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dd5f06ee2fefaf5e3733a8800a78d1d') in 0.0138567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_logo_alpha.png
+  artifactKey: Guid(c081bff2dca614d48bd2aed78d8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_logo_alpha.png using Guid(c081bff2dca614d48bd2aed78d8a8f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b2e74ad615ee2d7849584d4ffd9531') in 0.0139943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AO.png
+  artifactKey: Guid(b353afc61d1409645ac2444fa8c5acef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AO.png using Guid(b353afc61d1409645ac2444fa8c5acef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b501515a2ce89310fc7e2371f83ab90f') in 0.0142285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(06813e9ef3cd2ce428aa54b745f9531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_AlbedoTransparency.png using Guid(06813e9ef3cd2ce428aa54b745f9531a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b6448e870bb233bba6231bdb9c6bea6') in 0.0124912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(4d207a50abaea1f49868499d3d8463bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_MetallicSmoothness.png using Guid(4d207a50abaea1f49868499d3d8463bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b2a7099a2f24f9f4ec6f2cd80aef1d0') in 0.006431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_Normal.png
+  artifactKey: Guid(191d4a308f64a754a9074e1bda02e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/mailbox/mailbox_street_DefaultMaterial_Normal.png using Guid(191d4a308f64a754a9074e1bda02e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9176d72dd8956bb0ca5da73a037cb4d') in 0.0129067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.203816 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(b7fd8da55c4cc7d4bbbd073c95da5c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AlbedoTransparency.png using Guid(b7fd8da55c4cc7d4bbbd073c95da5c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec05c3e2804393647e492c2f48939bf5') in 0.0595689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AO.png
+  artifactKey: Guid(e0ccdda9c511f5c4391aca94885148d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AO.png using Guid(e0ccdda9c511f5c4391aca94885148d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b21b2d0f7f06699797867c86cb4de2d') in 0.0140659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_Normal.png
+  artifactKey: Guid(3dcb46679354a004fb610a5487cfbd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_Normal.png using Guid(3dcb46679354a004fb610a5487cfbd19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d45b74725d7ac9afa0d4418117b2ac5') in 0.014917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(b478f989721efcc47be00ff8da27f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_MetallicSmoothness.png using Guid(b478f989721efcc47be00ff8da27f9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cf419627c9c14fa7eebe0487d4c2c6b') in 0.0065366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AlbedoTransparency.png
+  artifactKey: Guid(5e737a6f31573c745b640e0993274b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AlbedoTransparency.png using Guid(5e737a6f31573c745b640e0993274b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '406d73c30cb6358ed6f9cd99fa5c038d') in 0.0122064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AO.png
+  artifactKey: Guid(c5965e8f2617bf143a646a16287d8be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_AO.png using Guid(c5965e8f2617bf143a646a16287d8be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a25cfde0055ab333359aa0541a0bb07') in 0.0124705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AO.png
+  artifactKey: Guid(d91e6105c2326ec47bd5f2eb5944e71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_AO.png using Guid(d91e6105c2326ec47bd5f2eb5944e71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd00c97f5ffeb8ece4920d3cd30710f0b') in 0.0137543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_Normal.png
+  artifactKey: Guid(80e6ebd67e3635444b87ef68369cc038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_Normal.png using Guid(80e6ebd67e3635444b87ef68369cc038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84be41875e099e8f5778bb8041ccc7a6') in 0.0126496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(8fc2c6568f10a2f4dabb9b0c46191c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_concrete_DefaultMaterial_AlbedoTransparency.png using Guid(8fc2c6568f10a2f4dabb9b0c46191c97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44c788546941d3bbe47dc8f1b5bbc051') in 0.0129083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_Normal.png
+  artifactKey: Guid(118b775d7e7bfaf498cb25d8eff0a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_Normal.png using Guid(118b775d7e7bfaf498cb25d8eff0a8b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de86b93cf965b80e1412b8f5351ea43b') in 0.0154929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_MetallicSmoothness.png
+  artifactKey: Guid(1d1ef7bb9b572e145996cc628f5f6099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/road_barrier_02_Material_MetallicSmoothness.png using Guid(1d1ef7bb9b572e145996cc628f5f6099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f7d16988f43b6fc072febb286f6d591') in 0.0070762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(af86fa8835cae8644b96e23fce2f08d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/barrier01_DefaultMaterial_MetallicSmoothness.png using Guid(af86fa8835cae8644b96e23fce2f08d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e674b5145d3a578d42c69003681d7ad') in 0.0068393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302840 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AlbedoTransparency.png
+  artifactKey: Guid(11c6613fdc20667469666c7c94f86172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AlbedoTransparency.png using Guid(11c6613fdc20667469666c7c94f86172) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0754e7ea01425818c76649c72136802') in 0.0161555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AO.png
+  artifactKey: Guid(55e2666ed05865b4a93dd0ca2f665b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_AO.png using Guid(55e2666ed05865b4a93dd0ca2f665b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '953395b8e3c1bda778b1328af166b00e') in 0.0159017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_Normal.png
+  artifactKey: Guid(9757718a99ee69b499176de5c49fc262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_Normal.png using Guid(9757718a99ee69b499176de5c49fc262) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07e02398b0dac1a8299abbcede61acb1') in 0.015118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_MetallicSmoothness.png
+  artifactKey: Guid(d80a43cf51846d24c87debc8f80cc9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/traffic_light_01_Material_MetallicSmoothness.png using Guid(d80a43cf51846d24c87debc8f80cc9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51de9445d385db33eacfdb30f1bbbaef') in 0.0124933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.824175 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01.prefab
+  artifactKey: Guid(5b771317d7b3efa40990bf964e6525fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01.prefab using Guid(5b771317d7b3efa40990bf964e6525fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '411ca907eaf58a064905deff228f517c') in 0.0162849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01 (1).prefab
+  artifactKey: Guid(52978e634c533654eb48564870a874ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01 (1).prefab using Guid(52978e634c533654eb48564870a874ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8deb471b2e13a5d5f857ea2a42ce2a9') in 0.0136696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/PREFABS/bench_02.prefab
+  artifactKey: Guid(58718a685a6b731499e38cda96d7d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bench_02.prefab using Guid(58718a685a6b731499e38cda96d7d2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9469a08d9b06f7f18517c2abee870dce') in 0.0424706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/traffic_light_01.prefab
+  artifactKey: Guid(1576ca83414a02a4db4e6f04a34dcd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/traffic_light_01.prefab using Guid(1576ca83414a02a4db4e6f04a34dcd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '653a3c044c68cf33f8174b1a4270374b') in 0.0240556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (3).prefab
+  artifactKey: Guid(53e77e0877baeaf45b0d0a76248b67cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (3).prefab using Guid(53e77e0877baeaf45b0d0a76248b67cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd210db24d4eab3f568c82d4c7d7b2927') in 0.021094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_01 (1).prefab
+  artifactKey: Guid(df0fa5513fd2e304ca49846fb4910bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_01 (1).prefab using Guid(df0fa5513fd2e304ca49846fb4910bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '230f0aa934bee419d1a9718bac01acf4') in 0.0173733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_01.prefab
+  artifactKey: Guid(3452e800e85575341a6e56bc843fa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_01.prefab using Guid(3452e800e85575341a6e56bc843fa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5ef97c879a6d475a1eb945e8b0582be') in 0.0177396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (5).prefab
+  artifactKey: Guid(7d6321aa847c21549b22071f3fc81e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (5).prefab using Guid(7d6321aa847c21549b22071f3fc81e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef95d3fb6839de34f239aa926431bf22') in 0.0197925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_01.prefab
+  artifactKey: Guid(0d8eafda27f93954dbeec65a7097b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_01.prefab using Guid(0d8eafda27f93954dbeec65a7097b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9a5932a0b344f811d09bb1e84245f2e') in 0.0184628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_02 (1).prefab
+  artifactKey: Guid(7ff7d79ed03283d4692f4aad90b1ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_02 (1).prefab using Guid(7ff7d79ed03283d4692f4aad90b1ccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24a3640b6494b6803de41f218b313465') in 0.018947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/bench_01.prefab
+  artifactKey: Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bench_01.prefab using Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '078dd04c4b488da6ec81e9dedba6d520') in 0.0198087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_01.prefab
+  artifactKey: Guid(450919f08fb262641bd983147441e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_01.prefab using Guid(450919f08fb262641bd983147441e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8870899fffb61564610b8d3c10ae61cb') in 0.0231327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_02.prefab
+  artifactKey: Guid(53e475089ce39514190b56a493feb7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_02.prefab using Guid(53e475089ce39514190b56a493feb7fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08cc9a2277181c2d458af836ae71ba07') in 0.0202427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_03.prefab
+  artifactKey: Guid(1dd597ffb0a51494cb18fef2d361718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_03.prefab using Guid(1dd597ffb0a51494cb18fef2d361718b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16fa809b47cd51b87e537e1536da6a8d') in 0.0224581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (4).prefab
+  artifactKey: Guid(ffb1f63b282c4e14ba877cca95702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (4).prefab using Guid(ffb1f63b282c4e14ba877cca95702859) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f4bbfda5724489a91ff244e050d9c9') in 0.017808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/mailbox_street.prefab
+  artifactKey: Guid(36d132f6e5934b145a84aa404f3b832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/mailbox_street.prefab using Guid(36d132f6e5934b145a84aa404f3b832d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be2c6c1d4383e32e5bd9ad10060a4946') in 0.0178097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_02.prefab
+  artifactKey: Guid(80a0304f8a4d6b744b51aea2f654ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_02.prefab using Guid(80a0304f8a4d6b744b51aea2f654ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db3da849329771aa64cef2abee2502fa') in 0.0195486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01.prefab
+  artifactKey: Guid(dd29adc9133586049b11f0dc51f83154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01.prefab using Guid(dd29adc9133586049b11f0dc51f83154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f59ac99ea647a658f6d759df97a56d1b') in 0.0174931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_02.prefab
+  artifactKey: Guid(a6e39f2b729089a47a6f068658bc4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_02.prefab using Guid(a6e39f2b729089a47a6f068658bc4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93fa909fc8dce67300f210797c60d614') in 0.0187579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01 (2).prefab
+  artifactKey: Guid(9a0c0ee817c265c4c82bdc4d4589cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01 (2).prefab using Guid(9a0c0ee817c265c4c82bdc4d4589cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a01a96d8b2c6e4a8acfeb510c8f6e2d5') in 0.0158539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (1).prefab
+  artifactKey: Guid(b496c499a8de3c54882034347e0ae038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (1).prefab using Guid(b496c499a8de3c54882034347e0ae038) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eabc80ba3e4cebee4c828f977070df94') in 0.0213841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_concrete.prefab
+  artifactKey: Guid(24244c48d0af7f34c92922d8932aa732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_concrete.prefab using Guid(24244c48d0af7f34c92922d8932aa732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a32eb498cec3e742f86865bde43ff83') in 0.0200033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/container_01 (2).prefab
+  artifactKey: Guid(97266b58dd863164aa3f4b8a223cd796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/container_01 (2).prefab using Guid(97266b58dd863164aa3f4b8a223cd796) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39827bfc4e6c7bbea730cf84cf41ab24') in 0.0198994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/fire_hydrant.prefab
+  artifactKey: Guid(1ba15978291e2594583dc8dc0088a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/fire_hydrant.prefab using Guid(1ba15978291e2594583dc8dc0088a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99377b5aa03dc499827300dc4f426a99') in 0.0215157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.967448 seconds.
+  path: Assets/City Props Bundle/MAPS/bins/bin_03.json
+  artifactKey: Guid(4c978f2ec94a9b04aa284af0f2a2327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/bins/bin_03.json using Guid(4c978f2ec94a9b04aa284af0f2a2327a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4a8e336c159fa9dfb5f5818ba209d1b') in 0.0018077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 292.941345 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined
+  artifactKey: Guid(85a0c1641e387ca4286bf4100609859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined using Guid(85a0c1641e387ca4286bf4100609859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac570efc55fe1f0fdf7506b7111bc974') in 0.0006518 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.506827 seconds.
-  path: Assets/Core/DroneController.cs
-  artifactKey: Guid(302e88f7522608745a8d154f5cf93994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/DroneController.cs using Guid(302e88f7522608745a8d154f5cf93994) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0219efe25615c289b8b505176a548787') in 0.0012257 seconds
+  Time since last request: 0.412790 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined
+  artifactKey: Guid(53e00d8394b1dde4e92f91a166577cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined using Guid(53e00d8394b1dde4e92f91a166577cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '670a8d9f829326c337aeef20d72b796d') in 0.0005524 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.252411 seconds.
-  path: Assets/Core/DroneCameraController.cs
-  artifactKey: Guid(9a175e92b0fc76647b1e265c9e3cba6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Core/DroneCameraController.cs using Guid(9a175e92b0fc76647b1e265c9e3cba6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e37ad77e8d865c297289d11ab217baf2') in 0.0007398 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.232018 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(9908d324a8678a34593ae9a3be6d5d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(9908d324a8678a34593ae9a3be6d5d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb8d2e735ba3c904b9665044ef87af22') in 0.0234298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(de3b2fe268da3c64b9dc1c77f8e493e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_Normal.png using Guid(de3b2fe268da3c64b9dc1c77f8e493e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a57aba15fc26884059a89afa06d6515') in 0.0173476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(fdad2aed34fd4504e9d838539a49c6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_Normal.png using Guid(fdad2aed34fd4504e9d838539a49c6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '529eadf709afcb2b5ca9c716e6d71193') in 0.019852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(171565735752fc943b5df3f6f893db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_Normal.png using Guid(171565735752fc943b5df3f6f893db65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb1e6d429bc004deb79bf3079a60e0e7') in 0.0165765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(d8a26103923d1fd4e8facfda7aae99c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(d8a26103923d1fd4e8facfda7aae99c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8069c7c2d67303dd79ec882ff4aef51') in 0.016831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(6ac271cb3a1a1914097b841cf4771065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(6ac271cb3a1a1914097b841cf4771065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc1cfaf9c5c72b09b058bf7636482820') in 0.0203678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(985e6ebecc82c6841b2184d4037eda80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_blue_non_ruined_DefaultMaterial_AO.png using Guid(985e6ebecc82c6841b2184d4037eda80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd17b89dc7a5b398beaa931fa12823b90') in 0.0162753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(77326b076101697489ea44b4567ec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AO.png using Guid(77326b076101697489ea44b4567ec1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46711f24a9aea77676732a66196fd95d') in 0.0142369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(08b643455d7568e4a9dc6ea82a0381ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(08b643455d7568e4a9dc6ea82a0381ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f46dad1fee7687f18bbc6be67ef13ab6') in 0.0158774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(af54842601674094f86a7f87a0cb5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_yellow_non_ruined_DefaultMaterial_AO.png using Guid(af54842601674094f86a7f87a0cb5810) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28997856cd88e53384c6dda0ee1d386b') in 0.0133391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(6e3bd1b0348762840bac8d3eb0d09cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(6e3bd1b0348762840bac8d3eb0d09cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd31e90bc5c1ed0439203aaf90161f5d5') in 0.0151509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(466925af318e6594c8b7b1da01307779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Non_ruined/container_red_non_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(466925af318e6594c8b7b1da01307779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec941eeaf22f3c82f646f459063e62d') in 0.0185892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.537362 seconds.
+  path: Assets/City Props Bundle/PREFABS/bench_01.prefab
+  artifactKey: Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bench_01.prefab using Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58c621543fd9d11d4f4b39eaf56fc37f') in 1.4114541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.564782 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_low_Material.001_AlbedoTransparency.png
+  artifactKey: Guid(11cd6e9c31a780b43b1478b549de2a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_low_Material.001_AlbedoTransparency.png using Guid(11cd6e9c31a780b43b1478b549de2a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be38cd32fee0779e508140142e1a849c') in 0.0221746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_Normal.png
+  artifactKey: Guid(f1173d67e3cf4964998e412b7ea29a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_Normal.png using Guid(f1173d67e3cf4964998e412b7ea29a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b02acfd33acc87f7d292b7a23298a45') in 0.0184166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AlbedoTransparency_Material_AlbedoTransparency.png
+  artifactKey: Guid(bf75fe79bde521345a395775b6b157a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AlbedoTransparency_Material_AlbedoTransparency.png using Guid(bf75fe79bde521345a395775b6b157a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48cccd7fdaee85b03b43e60568cca4fa') in 0.0145127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AlbedoTransparency.png
+  artifactKey: Guid(3e3244518af029e47ac65f6fa03ea626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AlbedoTransparency.png using Guid(3e3244518af029e47ac65f6fa03ea626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c8c7ee62fc082a4defc3500e2f3df3b') in 0.0151697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_MetallicSmoothness.png
+  artifactKey: Guid(e025d100bdf72ee439f87e4934d52906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_MetallicSmoothness.png using Guid(e025d100bdf72ee439f87e4934d52906) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075c47da2a05aa403f31e43d72905884') in 0.0168662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_Normal.png
+  artifactKey: Guid(4cc8aa01140543146bb826cc377ccf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_Normal.png using Guid(4cc8aa01140543146bb826cc377ccf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75aa2f781d0accb5827f7890db2a643e') in 0.0173196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_MetallicSmoothness.png
+  artifactKey: Guid(b863d28def477a44e888936ecf2a830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_MetallicSmoothness.png using Guid(b863d28def477a44e888936ecf2a830d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd1c9d610cd05a49cf27eaff9e6103f2') in 0.0160742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AO.png
+  artifactKey: Guid(7c18850f52035ec4d956d890f99e5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_AO.png using Guid(7c18850f52035ec4d956d890f99e5a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1626d05ce25a0a4ea65178436d78552c') in 0.0148311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_MetallicSmoothness.png
+  artifactKey: Guid(f4a0638b40349d546ad79556d4322a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_MetallicSmoothness.png using Guid(f4a0638b40349d546ad79556d4322a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bd385c45ea6cea0a131c25873495cb1') in 0.0165781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_Normal.png
+  artifactKey: Guid(0f3ce8a8137e38b47ac073a56dcbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_green_Material_Normal.png using Guid(0f3ce8a8137e38b47ac073a56dcbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '431b80903be7ac58a0dbb5e04755ca92') in 0.0159165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AO.png
+  artifactKey: Guid(bfce951f4b22df84a8d2326ea0f67867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_02_blue_Material_AO.png using Guid(bfce951f4b22df84a8d2326ea0f67867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77002c7272fb65c90da87418a0e2cc88') in 0.0131476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_AO.png
+  artifactKey: Guid(0cc34d54c69317540a62a9046df33acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/dumpster_01_red_clean_Material.001_AO.png using Guid(0cc34d54c69317540a62a9046df33acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '697cccb670d80d48ee06694c582a7c08') in 0.0154842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.428125 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/Materials/fire_hydrant_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(d4b11a0429382ef43a91f120c30518d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/Materials/fire_hydrant_DefaultMaterial_AlbedoTransparency.mat using Guid(d4b11a0429382ef43a91f120c30518d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6858da9f80884d2c8090ca422561092c') in 0.2640537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.471217 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_AO.png
+  artifactKey: Guid(29d3c2b83d437374a80be30d351ce4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_AO.png using Guid(29d3c2b83d437374a80be30d351ce4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53ced36ca216ae51059e9af3eb42146d') in 0.1109667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_red_dirty_Material.001_AlbedoTransparency.png
+  artifactKey: Guid(66256cb8ddf12334c92c3b6e949039b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_red_dirty_Material.001_AlbedoTransparency.png using Guid(66256cb8ddf12334c92c3b6e949039b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a6c352b524f8eebe8a615aed913d3af') in 0.1972726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_MetallicSmoothness.png
+  artifactKey: Guid(e39a89fe454637f45896e34eb9c1a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_MetallicSmoothness.png using Guid(e39a89fe454637f45896e34eb9c1a6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd55d6b49e07c37b6006083157ce7ea5c') in 0.0181831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_Normal.png
+  artifactKey: Guid(15a2d2cfa98d59443a1945b03d09bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/dirty/dumpster_01_red_dirty_Material.001_Normal.png using Guid(15a2d2cfa98d59443a1945b03d09bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c7597fc635e2dee3b25e6499e223985') in 0.01863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.996722 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/Materials/barrier01_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(9b5ed25de92e8cb48b977c1c87ef3f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/Materials/barrier01_DefaultMaterial_AlbedoTransparency.mat using Guid(9b5ed25de92e8cb48b977c1c87ef3f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c5c7cf5fd8494a7813c94cd851e4d82') in 0.0270807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/Materials/road_barrier_concrete_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(5e3bcd4b66c676e4298b971106219095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/Materials/road_barrier_concrete_DefaultMaterial_AlbedoTransparency.mat using Guid(5e3bcd4b66c676e4298b971106219095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dcd2be2e1bc6266db5c1e3602b6c322') in 0.0244284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/City Props Bundle/MAPS/road_barriers/Materials/road_barrier_02_Material_AlbedoTransparency.mat
+  artifactKey: Guid(2f993aa4e0b6f5742a46620d47296bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/road_barriers/Materials/road_barrier_02_Material_AlbedoTransparency.mat using Guid(2f993aa4e0b6f5742a46620d47296bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9b2241c70ce785a530fc29f64ec4c2f') in 0.0248941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.247923 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_01_red_clean_low_Material.001_AlbedoTransparency.mat
+  artifactKey: Guid(db2b0f7e6726aa54794a41eeec5ca824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_01_red_clean_low_Material.001_AlbedoTransparency.mat using Guid(db2b0f7e6726aa54794a41eeec5ca824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a760da724f9f921e5d5b7f4fffbb0197') in 0.0134354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_02_green_Material_AlbedoTransparency_Material_AlbedoTransparency.mat
+  artifactKey: Guid(a58c15d1417d3d547945d0925b3aa9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_02_green_Material_AlbedoTransparency_Material_AlbedoTransparency.mat using Guid(a58c15d1417d3d547945d0925b3aa9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '977c2671da0c4118df7d471fbeb95863') in 0.011733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_01_red_clean_Material.001_MetallicSmoothness.mat
+  artifactKey: Guid(dde3f1dc5a2dd514599116859cef82ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_01_red_clean_Material.001_MetallicSmoothness.mat using Guid(dde3f1dc5a2dd514599116859cef82ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3766cf1ce5ffdc4c8bb2b335bfda478f') in 0.0078849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_02_blue_Material_AlbedoTransparency.mat
+  artifactKey: Guid(2ae594609db0adb40ad5019179d9bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/dumpsters/clean/Materials/dumpster_02_blue_Material_AlbedoTransparency.mat using Guid(2ae594609db0adb40ad5019179d9bd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21f5bd8a9fd2edb99c30d252aed3ffe2') in 0.0117881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.246292 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(22fd6371ea71d9242a1bec9572cd747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(22fd6371ea71d9242a1bec9572cd747e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6562cd6307202d64258785b8c2e5905') in 0.0192538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(757a96e298b5d494d9c1c3ea93683b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_Normal.png using Guid(757a96e298b5d494d9c1c3ea93683b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84541d1f8ab3f291965dff2dcf12f7b8') in 0.0166253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(4446ea7312a0b844cb61c243b686447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(4446ea7312a0b844cb61c243b686447a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad6a9445c7b3ba20f1d3c5a264f80269') in 0.0143613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(d742c12f919ed0b47a3a2253942ac32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_AO.png using Guid(d742c12f919ed0b47a3a2253942ac32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d12f6c3a581beda4b1e94f7d64bab3a') in 0.013589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(71730b5b89c43614c802ac96194c50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AlbedoTransparency.png using Guid(71730b5b89c43614c802ac96194c50b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '903acc9ef2038cbd648d578223da1819') in 0.0140417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(09f0a543e137e474c81cc6454f7f2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(09f0a543e137e474c81cc6454f7f2c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b1397980c879a74f3fb162058e0609') in 0.0169196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(ec468d7f942ddeb4a9bfc6f205825fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(ec468d7f942ddeb4a9bfc6f205825fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03c57ee27553e649aea6db2d906b9a88') in 0.0231955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(3ae9219d4d4326948ae0998cfab09d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_MetallicSmoothness.png using Guid(3ae9219d4d4326948ae0998cfab09d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c25a92191d6d266f87a3814b89fdf1f') in 0.016003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(d27849c53b7939843a73eda185cf2eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_Normal.png using Guid(d27849c53b7939843a73eda185cf2eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '974361cc6d99f93614403504f8ec959f') in 0.024605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(ef94ac8c693dfe148952f014528c4844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_red_ruined_DefaultMaterial_AO.png using Guid(ef94ac8c693dfe148952f014528c4844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '648158a8697d8ce356b1c9b8590f73ee') in 0.0140742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AO.png
+  artifactKey: Guid(b827a665f2a59d848b0e7098cf16434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_blue_ruined_DefaultMaterial_AO.png using Guid(b827a665f2a59d848b0e7098cf16434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75c84170a438e9118872874e45713c7e') in 0.0135072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_Normal.png
+  artifactKey: Guid(a62e2cae14b54b247913c0099a9c8e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/containers/Ruined/container_yellow_ruined_DefaultMaterial_Normal.png using Guid(a62e2cae14b54b247913c0099a9c8e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cddfd786776663c63847b1c84af1f0d1') in 0.0158629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440572 seconds.
+  path: Assets/City Props Bundle/PREFABS/barrel_01 (2).prefab
+  artifactKey: Guid(9a0c0ee817c265c4c82bdc4d4589cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/barrel_01 (2).prefab using Guid(9a0c0ee817c265c4c82bdc4d4589cffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58e234b72c873b93f745d0259739152') in 0.0201761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/traffic_light_01.prefab
+  artifactKey: Guid(1576ca83414a02a4db4e6f04a34dcd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/traffic_light_01.prefab using Guid(1576ca83414a02a4db4e6f04a34dcd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4354581930fbc004a928a7ff500ce8ad') in 0.016943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_01.prefab
+  artifactKey: Guid(3452e800e85575341a6e56bc843fa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_01.prefab using Guid(3452e800e85575341a6e56bc843fa4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5babcf83e95023ccaddff7910fc0318') in 0.0187474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/bench_01.prefab
+  artifactKey: Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bench_01.prefab using Guid(f42f866fa8ad4214d9f77fba766f7cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a131f281f08271250cf94a7156790259') in 0.0121569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_01.prefab
+  artifactKey: Guid(450919f08fb262641bd983147441e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_01.prefab using Guid(450919f08fb262641bd983147441e84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43632581f95a76d8a207b2bfb04ef326') in 0.0264535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/bin_02.prefab
+  artifactKey: Guid(80a0304f8a4d6b744b51aea2f654ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/bin_02.prefab using Guid(80a0304f8a4d6b744b51aea2f654ac21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11a1d778637d7ab60140de6ade1c5664') in 0.023237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_02.prefab
+  artifactKey: Guid(a6e39f2b729089a47a6f068658bc4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_02.prefab using Guid(a6e39f2b729089a47a6f068658bc4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddf654cec6aaa0bd7bfa8e220cf21f1e') in 0.0154252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/City Props Bundle/PREFABS/road_barrier_concrete.prefab
+  artifactKey: Guid(24244c48d0af7f34c92922d8932aa732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/road_barrier_concrete.prefab using Guid(24244c48d0af7f34c92922d8932aa732) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f486457ea76a964735769148ec194117') in 0.0152954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/PREFABS/fire_hydrant.prefab
+  artifactKey: Guid(1ba15978291e2594583dc8dc0088a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/fire_hydrant.prefab using Guid(1ba15978291e2594583dc8dc0088a622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28d17732b9ce6a10847ef68973bd5ace') in 0.017575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.005081 seconds.
+  path: Assets/City Props Bundle/PREFABS/dumpster_01.prefab
+  artifactKey: Guid(0d8eafda27f93954dbeec65a7097b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/PREFABS/dumpster_01.prefab using Guid(0d8eafda27f93954dbeec65a7097b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a38989b3b9124f3c941567f37f5cdd3f') in 0.0258232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.095753 seconds.
+  path: Assets/City Props Bundle/MAPS/fire_hydrant/Materials/fire_hydrant_DefaultMaterial_AlbedoTransparency.mat
+  artifactKey: Guid(d4b11a0429382ef43a91f120c30518d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/fire_hydrant/Materials/fire_hydrant_DefaultMaterial_AlbedoTransparency.mat using Guid(d4b11a0429382ef43a91f120c30518d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b81bf37648ebc465a8b85793891ee75') in 0.0196463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.500293 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/Materials/traffic_light_01_Material_AlbedoTransparency.mat
+  artifactKey: Guid(a4270d8dc5cb4414682590ec22462cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/Materials/traffic_light_01_Material_AlbedoTransparency.mat using Guid(a4270d8dc5cb4414682590ec22462cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0d968e18cad15d2028d4625978305c2') in 0.0196759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/City Props Bundle/MAPS/traffic_lights/Materials/traffic_light_01_Material_AlbedoTransparency 1.mat
+  artifactKey: Guid(a27cef71c8473f844b29e7f5f3ed18a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/City Props Bundle/MAPS/traffic_lights/Materials/traffic_light_01_Material_AlbedoTransparency 1.mat using Guid(a27cef71c8473f844b29e7f5f3ed18a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51fd4f11a740b6b0024f827661635f98') in 1.3203904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
