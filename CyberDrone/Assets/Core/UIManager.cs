@@ -1,8 +1,8 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 
-namespace DroneGame.Core
+namespace Core
 {
     /// <summary>
     /// Manages all UI elements and interactions in the game.
@@ -126,8 +126,8 @@ namespace DroneGame.Core
                     Rigidbody rb = playerDrone.GetComponent<Rigidbody>();
                     if (rb != null)
                     {
-                        float speed = rb.velocity.magnitude;
                         float speed = rb.linearVelocity.magnitude;
+                    
                         speedText.text = $"SPD: {speed:F1}m/s";
                     }
                 }
