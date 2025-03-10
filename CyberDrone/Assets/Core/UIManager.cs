@@ -126,6 +126,7 @@ namespace DroneGame.Core
                     Rigidbody rb = playerDrone.GetComponent<Rigidbody>();
                     if (rb != null)
                     {
+                        float speed = rb.velocity.magnitude;
                         float speed = rb.linearVelocity.magnitude;
                         speedText.text = $"SPD: {speed:F1}m/s";
                     }
