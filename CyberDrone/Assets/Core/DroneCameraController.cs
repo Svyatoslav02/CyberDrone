@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 
+namespace Core
+{
     public class DroneCameraController : MonoBehaviour
     {
         [Header("Camera References")]
@@ -75,3 +77,4 @@
         }
 
     }
+}
