@@ -121,13 +121,13 @@ PrefabInstance:
       addedObject: {fileID: 4475525039707530911}
     - targetCorrespondingSourceObject: {fileID: 70693396437987900, guid: cf23b55ba765f374aab36c1a7a3b28f4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 7002375570000744178}
-    - targetCorrespondingSourceObject: {fileID: 70693396437987900, guid: cf23b55ba765f374aab36c1a7a3b28f4, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 5554830322828208476}
     - targetCorrespondingSourceObject: {fileID: 70693396437987900, guid: cf23b55ba765f374aab36c1a7a3b28f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8746701756439999527}
+    - targetCorrespondingSourceObject: {fileID: 70693396437987900, guid: cf23b55ba765f374aab36c1a7a3b28f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3071864334944753918}
   m_SourcePrefab: {fileID: 100100000, guid: cf23b55ba765f374aab36c1a7a3b28f4, type: 3}
 --- !u!1 &7413469092188474547 stripped
 GameObject:
@@ -161,20 +161,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7002375570000744178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7413469092188474547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a175e92b0fc76647b1e265c9e3cba6b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainCamera: {fileID: 0}
-  droneTransform: {fileID: 7902197150883976713}
 --- !u!114 &5554830322828208476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 302e88f7522608745a8d154f5cf93994, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 25
+  thrust: 15
   pitchSpeed: 3
   yawSpeed: 1
   rollSpeed: 1
@@ -204,8 +190,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputSmoothingFactor: 0.3
---- !u!4 &7902197150883976713 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 842445707801962630, guid: cf23b55ba765f374aab36c1a7a3b28f4, type: 3}
-  m_PrefabInstance: {fileID: 7357414598344818319}
+--- !u!114 &3071864334944753918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7413469092188474547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878bdf1436146ff4094852541c5a85bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
+  droneTransform: {fileID: 0}
