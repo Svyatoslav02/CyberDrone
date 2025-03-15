@@ -23,7 +23,7 @@ namespace Core
         private KeyCode upKey = KeyCode.LeftShift;
         private KeyCode downKey = KeyCode.LeftControl;
         
-        private void Update()
+        private void FixedUpdate()
         {
             // Получаем сырой ввод
             GetRawInput();
