@@ -19,7 +19,7 @@ namespace Core
         private float targetYaw;
         private float targetRoll;
         
-        
+        //
         private void FixedUpdate()
         {
             // Получаем сырой ввод
