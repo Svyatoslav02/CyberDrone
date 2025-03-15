@@ -6,9 +6,9 @@ namespace Core
     {
         [Header("Drone Properties")]
         [SerializeField] private float thrust = 15f;
-        [SerializeField] private float pitchSpeed = 5f;
-        [SerializeField] private float yawSpeed = 5f;
-        [SerializeField] private float rollSpeed = 5f;
+        [SerializeField] private float pitchSpeed = 1f;
+        [SerializeField] private float yawSpeed = 3f;
+        [SerializeField] private float rollSpeed = 3f;
         
         // Ссылки на компоненты
         private Rigidbody rb;
@@ -56,10 +56,10 @@ namespace Core
             ApplyTorque();
             
             // Предотвращаем падение ниже нуля
-            if (transform.position.y < 0.5f)
+            if (transform.position.y < 2.5f)
             {
                 Vector3 pos = transform.position;
-                pos.y = 0.5f;
+                pos.y = 2.5f;
                 transform.position = pos;
                 
                 // Останавливаем падение

@@ -126,14 +126,9 @@ public class Drone : MonoBehaviour
             maxHeight = transform.position.y;
     }
     
-    private void LateUpdate()
-    {
-        // Update camera in LateUpdate for smoother movement
-        UpdateCameraPosition();
-    }
-    
     private void FixedUpdate()
     {
+        UpdateCameraPosition();
         // Apply physics forces (only if we have energy)
         if (currentEnergy > 0)
         {
