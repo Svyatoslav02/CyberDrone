@@ -8,7 +8,8 @@ namespace Core
         [SerializeField] private float thrust = 15f;
         [SerializeField] private float pitchSpeed = 3f;
         [SerializeField] private float yawSpeed = 1f;
-        [SerializeField] private float rollSpeed = 0.5f;
+        [SerializeField] private float rollSpeed = 0.1f;
+        [SerializeField] private float speedCof = 1.8f;
 
         // Ссылки на компоненты
         private Rigidbody rb;
@@ -28,16 +29,15 @@ namespace Core
 
             ApplyThrust();
             ApplyTorque();
+            if (Input.GetKey(KeyCode.Space))rb.linearVelocity *= (1f - speedCof * Time.deltaTime);;
         }
 
         private void ApplyThrust()
         {
-            // Рассчитываем направление тяги к droneBottom
             Vector3 thrustDirection = (droneBottom.position - transform.position).normalized;
             float thrustForce = inputHandler.ThrustInput * thrust;
-
-            // Применяем силу в направлении droneBottom
             rb.AddForce(thrustDirection * thrustForce, ForceMode.Force);
+
         }
 
         private void ApplyTorque()
