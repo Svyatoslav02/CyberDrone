@@ -93,8 +93,8 @@ namespace Core
             float pitchDegrees = Mathf.Asin(pitchAngle) * Mathf.Rad2Deg;
             float rollDegrees = Mathf.Asin(rollAngle) * Mathf.Rad2Deg;
 
-            // Перевірка чи нахил більше порогового значення (7.5 градусів)
-            if (Mathf.Abs(pitchDegrees) > 7.5f || Mathf.Abs(rollDegrees) > 7.5f)
+            // Перевірка чи нахил більше порогового значення
+            if ((Mathf.Abs(pitchDegrees) > 10f && Mathf.Abs(pitchDegrees) < 80f) || (Mathf.Abs(rollDegrees) > 10f && Mathf.Abs(rollDegrees) < 80f))
             {
                 // Розраховуємо рух вперед та вбік на основі нахилу
                 Vector3 forwardMovement = transform.forward * pitchAngle;
