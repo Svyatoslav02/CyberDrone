@@ -5,7 +5,6 @@ public class DroneAudioController : MonoBehaviour
     public AudioSource audioSource1;
     public AudioSource audioSource2;
     public AudioSource audioSource3;
-    public AudioSource audioSource4;
 
     private void Update()
     {
@@ -23,17 +22,9 @@ public class DroneAudioController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("City"))
-        {
-            PlayAudio(audioSource4);
-        }
-    }
 
     private void PlayAudio(AudioSource audioSource)
     {
-        StopAllAudio();
 
         if (!audioSource.isPlaying)
         {
@@ -41,11 +32,10 @@ public class DroneAudioController : MonoBehaviour
         }
     }
 
-    private void StopAllAudio()
-    {
-        audioSource1.Stop();
-        audioSource2.Stop();
-        audioSource3.Stop();
-        audioSource4.Stop();
-    }
+    //private void StopAllAudio()
+    //{
+    //    audioSource1.Stop();
+    //    audioSource2.Stop();
+    //    audioSource3.Stop();
+    //}
 }//audio
