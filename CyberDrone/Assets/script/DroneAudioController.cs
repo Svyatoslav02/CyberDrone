@@ -8,27 +8,54 @@ public class DroneAudioController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.E))
+        if (Input.GetKey(KeyCode.W))
         {
-            PlayAudio(audioSource1);
+            SetAudioLevels(0.31f, 0.3f, 0.3f); // Movement sound active
         }
         else if (Input.GetKey(KeyCode.LeftShift))
         {
-            PlayAudio(audioSource3);
+            SetAudioLevels(0.3f, 0.3f, 0.31f); // Boost sound active
         }
         else
         {
-            PlayAudio(audioSource2);
+            SetAudioLevels(0.3f, 1.0f, 0.3f); // Idle sound active
         }
     }
 
-
-    private void PlayAudio(AudioSource audioSource)
+    private void SetAudioLevels(float movementVolume, float idleVolume, float boostVolume)
     {
+        audioSource1.volume = movementVolume;
+        audioSource2.volume = idleVolume;
+        audioSource3.volume = boostVolume;
 
-        if (!audioSource.isPlaying)
+        if (!audioSource1.isPlaying)
         {
-            audioSource.Play();
+            if (movementVolume < 0.31f)
+            {
+            }
+            else
+            {
+                audioSource1.Play();
+            }
+        }
+        if (!audioSource2.isPlaying) {
+
+            if (idleVolume < 0.31f)
+            {
+            }
+            else
+            {
+                audioSource2.Play();
+            }
+        }
+        if (!audioSource3.isPlaying) {
+            if (boostVolume < 0.31f)
+            {
+            }
+            else
+            {
+                audioSource3.Play();
+            }
         }
     }
 
