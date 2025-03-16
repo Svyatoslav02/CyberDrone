@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Drone
   - City
+  - MainMenu
+  - Menu
+  - MenuVolume
   layers:
   - Default
   - TransparentFX
