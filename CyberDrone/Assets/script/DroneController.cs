@@ -1,3 +1,4 @@
+using Core;
 using UnityEngine;
 
 namespace Core
@@ -5,16 +6,16 @@ namespace Core
     public class DroneController : MonoBehaviour
     {
         [Header("Drone Properties")]
-        [SerializeField] private float thrust = 15f;
+        [SerializeField] private float thrust = 25f;
         [SerializeField] private float pitchSpeed = 3f;
-        [SerializeField] private float yawSpeed = 1f;
-        [SerializeField] private float rollSpeed = 0.1f;
-        [SerializeField] private float speedCof = 1.8f;
+        [SerializeField] private float yawSpeed = 0.0625f;
+        [SerializeField] private float rollSpeed = 0.225f;
+        [SerializeField] private float speedCof = 0.2f;
 
-        // Ссылки на компоненты
         private Rigidbody rb;
         private DroneInputHandler inputHandler;
         [SerializeField] private Transform droneBottom;
+        [SerializeField] private Transform cameraTransform;
 
         private void Awake()
         {
@@ -24,12 +25,9 @@ namespace Core
 
         private void FixedUpdate()
         {
-            // Проверка компонентов
-            if (rb == null || inputHandler == null || droneBottom == null) return;
-
             ApplyThrust();
             ApplyTorque();
-            if (Input.GetKey(KeyCode.Space))rb.linearVelocity *= (1f - speedCof * Time.deltaTime);;
+            ApplyDrag();
         }
 
         private void ApplyThrust()
@@ -37,18 +35,27 @@ namespace Core
             Vector3 thrustDirection = (droneBottom.position - transform.position).normalized;
             float thrustForce = inputHandler.ThrustInput * thrust;
             rb.AddForce(thrustDirection * thrustForce, ForceMode.Force);
-
         }
 
         private void ApplyTorque()
         {
-            // Применяем вращающие силы
             Vector3 torque = new Vector3(
                 inputHandler.PitchInput * pitchSpeed,
                 inputHandler.YawInput * yawSpeed,
                 -inputHandler.RollInput * rollSpeed
             );
             rb.AddRelativeTorque(torque, ForceMode.Force);
+        }
+
+        private void ApplyDrag()
+        {
+            // Створюємо опір на базі швидкості
+            Vector3 dragForce = -rb.linearVelocity * speedCof;
+            rb.AddForce(dragForce, ForceMode.Force);
+
+            // Додавання опору на обертання
+            Vector3 angularDrag = -rb.angularVelocity * 0.01f; // Можна налаштувати значення 0.1f для налаштування рівня опору
+            rb.AddTorque(angularDrag, ForceMode.Force);
         }
     }
 }
